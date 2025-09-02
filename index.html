@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afya AI - Your Wellness Companion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>🤖 Afya AI Chatbot ❤️‍🩹</h1>
+        
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="floating-particles" id="particles"></div>
+                <div class="logo-container">
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="logo">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                </div>
+                <h2 class="header-title">Afya AI</h2>
+                <p class="header-subtitle">Your 24/7 Mental Health Companion</p>
+                
+                <div class="connection-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                
+                <div class="waves"></div>
+            </div>
+            
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <p>Hello! I'm Afya AI, your mental health companion. How are you feeling today?</p>
+                </div>
+                <div class="message bot-message">
+                    <p>You can share your thoughts, ask for coping strategies, or tell me what's on your mind. I'm here to listen and help.</p>
+                </div>
+            </div>
+            
+            <div class="quick-replies">
+                <div class="quick-reply" data-message="I'm feeling anxious">I'm feeling anxious</div>
+                <div class="quick-reply" data-message="I need coping strategies">Coping strategies</div>
+                <div class="quick-reply" data-message="I'm feeling sad">I'm feeling sad</div>
+                <div class="quick-reply" data-message="Tell me about mindfulness">Mindfulness</div>
+            </div>
+            
+            <div class="emoji-picker" id="emoji-picker">
+                <div class="emoji">😀</div>
+                <div class="emoji">😃</div>
+                <div class="emoji">😄</div>
+                <div class="emoji">😁</div>
+                <div class="emoji">😆</div>
+                <div class="emoji">😅</div>
+                <div class="emoji">😂</div>
+                <div class="emoji">🤣</div>
+                <div class="emoji">😊</div>
+                <div class="emoji">😇</div>
+                <div class="emoji">🙂</div>
+                <div class="emoji">🙃</div>
+                <div class="emoji">😉</div>
+                <div class="emoji">😌</div>
+                <div class="emoji">😍</div>
+                <div class="emoji">🥰</div>
+                <div class="emoji">😘</div>
+                <div class="emoji">😗</div>
+                <div class="emoji">😙</div>
+                <div class="emoji">😚</div>
+                <div class="emoji">👍</div>
+                <div class="emoji">👎</div>
+                <div class="emoji">❤️</div>
+                <div class="emoji">🔥</div>
+            </div>
+            
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <button id="emoji-btn">😊</button>
+                    <input type="text" id="user-input" placeholder="Type your message here...">
+                </div>
+                <button id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h2>How to Use Afya AI Chatbot</h2>
+            <ul>
+                <li><strong>Start a conversation</strong> by typing in the message box or using the quick replies</li>
+                <li><strong>Share your feelings</strong> - you can describe your current emotional state</li>
+                <li><strong>Ask for help</strong> with specific issues like anxiety, stress, or sadness</li>
+                <li><strong>Request techniques</strong> for mindfulness, breathing, or coping strategies</li>
+                <li><strong>Be specific</strong> about what you need help with for more tailored responses</li>
+                <li><strong>Try the quick reply buttons</strong> to get started quickly with common topics</li>
+                <li>Remember I'm an AI assistant, not a replacement for professional help in crisis situations</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
